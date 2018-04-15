@@ -51,6 +51,7 @@
   "dependencies": {
     "alasql": "^0.4.5",
     "axios": "^0.18.0",
+    "brorand": "^1.1.0",
     "chart.js": "^2.7.2",
     "date-fns": "^2.0.0-alpha.7",
     "dateformat": "^3.0.3",
