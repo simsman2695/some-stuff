@@ -1,5 +1,5 @@
 import React from 'react';
-
+var rn = require('random-number');
 import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
@@ -19,7 +19,7 @@ const About = (props) => {
     return (
         <div>
             <p>
-                Hi Chris
+          {rn()}
             </p>
         </div>
     );
