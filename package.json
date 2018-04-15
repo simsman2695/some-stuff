@@ -7,7 +7,7 @@
     "start": "npm run watch",
     "serve-ui": "./node_modules/.bin/webpack-dev-server",
     "serve": "cd server && npm start",
-    "watch": "concurrently -k -p \"[{name}]\" -n \"UI, Server\" -c \"cyan.bold,green.bold\" \"npm run serve-ui\"",
+    "watch": "concurrently -k -p \"[{name}]\" -n \"UI, Server\" -c \"cyan.bold,green.bold\" \"npm run serve-ui\""
   },
   "repository": {
     "type": "git",
